@@ -1,0 +1,37 @@
+<!-- ***************************************************************************************
+    Author     : Anamarys Sanchez Morales
+    Course     : WEB-1
+    URL        : ocelot.aul.fiu.edu/~asanc414
+    Professor  : Michael Robinson 
+    Program #1  : Create a website using a topic of choice in the ocelot.aul.fiu.edu
+                  FIU server. The topic of this website is movies and TV shows.  
+
+    Due Date   : 09/10/2018 
+    Certification: 
+    I hereby certify that this work is my own and none of it is the work of any other person. 
+
+    ..........{                  }..........
+
+  **************************************************************************************** -->
+<html>
+  <head>
+    <title> SanchezA Pgm1 </title>
+  </head>
+
+  <body align="center" bgcolor=indianred>
+    <table> <tr> &nbsp; </tr> </table>
+
+    <table width="70%" border="1" bordercolor="yellow" bgcolor="lightblue" align="center">
+      <tr>
+        <td align="center">
+          <a href="./page1.html">Page1</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page2.html">Page2</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page3.html">Page3</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page4.html">Page4</a>&nbsp; &nbsp; &nbsp;
+          <a href="../">Home</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>

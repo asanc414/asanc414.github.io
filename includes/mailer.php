@@ -1,0 +1,50 @@
+<!-- ***********************************************************************************
+  Page Name  : mailer.php 
+  Author     : Anamarys Sanchez Morales
+  Your URL   : ocelot-aul.fiu/~asanc414
+  Course     : CGS 4854 - U01
+  Program #4 : Assignment #4
+  Purpose    : Email data from Email_Me.php to email acoount 
+
+  Due Date   : 10/31/2018 
+
+  Certification: 
+
+  I hereby certify that this work is my own and none of it is the work of any other person. 
+
+  ..........{                }..........
+ ******************************************************************************* -->
+<html>
+  <head>
+    <title>mailer</title>
+  </head>
+          
+  <body>
+    
+    <?php 
+
+      $to          = "michael.robinson@cs.fiu.edu";  
+      $name_field  = $_POST['UserName']; 
+      $email_field = $_POST['UserEmail']; 
+      $UserTel     = $_POST['UserTel'];  
+      $option      = $_POST['MessageType']; 
+      $dropdown    = $_POST['drop_down']; 
+      $SubjectOther= $_POST['SubjectOther']; 
+      $message2     = $_POST['Comments'];
+      $subject     = "From FIU's Coffee Website User: ".$name_field;
+
+      foreach($_POST['check'] as $value) 
+      { 
+        $check_msg = "Yes, $value\n"; 
+      } 
+
+      $body = " From:                   $name_field\n E-Mail:                 $email_field\n Tel:                       $UserTel\n Main purpose:   $option\n Topic:                  $dropdown\n Other topic:       $SubjectOther\n Message:            $message2\n Contact:       $check_msg";
+
+      mail($to, $subject, $body); 
+
+      include( "program4.php" );
+
+    ?>
+ 
+  </body>
+</html>

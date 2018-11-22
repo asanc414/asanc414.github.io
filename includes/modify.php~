@@ -1,0 +1,66 @@
+<!-- ***********************************************************************************
+  Page Name  : modify.php 
+  Author     : Anamarys Sanchez Morales
+  Your URL   : ocelot-aul.fiu/~asanc414
+  Course     : CGS 4854 - U01
+  Program #3 : Assignment #3
+  Purpose    : Modifies record requested by user  
+
+  Due Date   : 10/15/2018 
+
+  Certification: 
+
+  I hereby certify that this work is my own and none of it is the work of any other person. 
+
+  ..........{                }..........
+ ******************************************************************************* -->
+<html>
+
+  <body>
+        
+    <?php
+        
+       $found = $_POST['found'];         
+           
+       if (  ( strlen(trim($found)) > 0 ) && ($found == $PantherID) )
+       {                
+          $query = "UPDATE customers 
+                    SET LastName      =  '$LastName',
+                        FirstName     =  '$FirstName', 
+                        Email         =  '$Email',
+                        Telephone     =  '$Telephone',
+                        Age           =  '$Age',
+                        Major         =  '$Major',
+                        American      =  '$American',
+                        Cuban         =  '$Cuban',
+                        Colombian     =  '$Colombian',
+                        Dark          =  '$Dark',
+                        Comments      =  '$Comments'
+                                 
+                   WHERE PantherID = '$PantherID'";
+                       
+          $sql = mysqli_query( $connection,$query );
+                                              
+          if ($sql)
+          {
+             $message ="<span style=\"color: blue;\">RECORD $found MODIFIED</span><br\>";
+          }   
+          else
+          {
+             //echo "Problem updating record. MySQL Error: " . mysqli_error($connection);
+             $message ="<span style=\"color: red;\">RECORD $found CANNOT BE MODIFIED, FIND IT FIRST</span><br\>";
+          }
+             
+       }   
+       else
+       {
+          $message ="<span style=\"color: red;\">FIND THE RECORD BEFORE MODIFING IT</span><br\>";
+       }
+           
+    ?>
+            
+  </body>
+                
+</html>
+
+

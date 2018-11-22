@@ -1,0 +1,92 @@
+<!-- ***************************************************************************************
+    Author     : Anamarys Sanchez Morales
+    Course     : WEB-1
+    URL        : ocelot.aul.fiu.edu/~asanc414
+    Professor  : Michael Robinson 
+    Program #1  : Create a website using a topic of choice in the ocelot.aul.fiu.edu
+                  FIU server. The topic of this website is movies and TV shows.  
+
+    Due Date   : 09/10/2018 
+    Certification: 
+    I hereby certify that this work is my own and none of it is the work of any other person. 
+
+    ..........{                  }..........
+
+  **************************************************************************************** -->
+<html>
+  <head>
+    <title> SanchezA Page2 </title>
+  </head>
+
+  <body bgcolor="darkpink"> <!-- Background color -->
+    <table> <tr> &nbsp; </tr> </table> <!-- Empty row-->
+
+    <!-- Menu Table with hyperlinks to page1, page 2, page3, page4, and home page-->
+    <table width="70%" border="1" bordercolor="yellow" bgcolor="lightblue" align="center">
+      <tr>
+        <td align="center">
+          <a href="./page1.html">Page1</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page2.html">Page2</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page3.html">Page3</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page4.html">Page4</a>&nbsp; &nbsp; &nbsp;
+          <a href="../">Home</a>
+        </td>
+      </tr>
+    </table>
+
+    <table> <tr> &nbsp; </tr> </table>
+    <hr color="orange"><hr color="orange"> <!-- Two lines that separate the menu section from the rest of the page-->
+
+    <!--Table with 3 rows and 2 columns formated as described below-->
+    <table align="center" width="80%" border="0" bgcolor="pink" cellpadding="7" cellspacing="7" >
+      <tr>
+        <td> &nbsp; </td> <!--Empty space-->
+        <td align="center">
+          <font color="darkyellow" size="8" face="Broadway" >
+            <b>Retro Movies</b>
+          </font><br>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <!--Image with a link to a different website-->
+          <a href="https://www.youtube.com/watch?v=s7EdQ4FqbhY">
+            <img src="../images/download.jpg" alt="Pulp Fiction Poster" width="300" height="150" border=0 />
+          </a>
+          <br><br> <!--Break creates a space-->
+          <font color=darkyellow size=3 face="Centaur"> <!-- Text describing the image-->
+            Pulp Fiction is a 1994 American crime film written and directed by Quentin Tarantino. The film is based on a story by Tarantino and Roger Avary, and starred John Travolta, Samuel L. Jackson, Bruce Willis, Ving Rhames, and Uma Thurman. It tells several stories of criminal Los Angeles. The film's title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.
+          </font>
+        </td>
+      </tr>
+
+      <tr>
+        <td> &nbsp; </td>
+        <td align="center">
+          <!--Image with a link to a different website-->
+          <a href="https://www.youtube.com/watch?v=SUXWAEX2jlg">
+            <img src="../images/fightClub.jpg" alt="Fight Club Poster" width="200" height="350" border=0 />
+          </a>
+          <br><br><!--Break creates a space-->
+          <font color=green size=3 face="Cambria"> <!-- Text describing the image-->
+            Fight Club is a 1999 film based on Chuck Palahniuk‘s 1996 novel of the same name. The film was directed by David Fincher and stars Brad Pitt, Edward Norton, and Helena Bonham Carter. Norton plays the unnamed protagonist, referred to as the narrator, who is discontent with his white-collar job. He forms a "fight club" with soap maker Tyler Durden, played by Pitt, and they are joined by men who also want to fight recreationally. The narrator becomes embroiled in a relationship with Durden and a dissolute woman, Marla Singer, played by Bonham Carter.
+          </font>
+        </td>
+      </tr>
+    </table>
+
+    <table> <tr> &nbsp; </tr> </table>
+
+    <table width="70%" align="right"> <!-- Single line table with a right aligned text-->
+      <tr>
+        <td>
+          <font color="pink" size="7" face="Verdana">
+            Click on the images for a trailer of the movie.
+          </font><br>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

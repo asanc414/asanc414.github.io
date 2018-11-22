@@ -1,0 +1,89 @@
+<!-- ***************************************************************************************
+    Author     : Anamarys Sanchez Morales
+    Course     : WEB-1
+    URL        : ocelot.aul.fiu.edu/~asanc414
+    Professor  : Michael Robinson 
+    Program #1  : Create a website using a topic of choice in the ocelot.aul.fiu.edu
+                  FIU server. The topic of this website is movies and TV shows. 
+
+    Due Date   : 09/10/2018 
+    Certification: 
+    I hereby certify that this work is my own and none of it is the work of any other person. 
+
+    ..........{                  }..........
+
+  **************************************************************************************** -->
+<html>
+  <head>
+    <title> SanchezA Page1 </title>
+  </head>
+
+  <body align="center" bgcolor=salmon> <!-- Center alignment and background color -->
+    <table> <tr> &nbsp; </tr> </table> <!-- Empty row-->
+
+    <!-- Menu Table with hyperlinks to page1, page 2, page3, page4, and home page-->
+    <table width="70%" border="1" bordercolor="yellow" bgcolor="lightblue" align="center">
+      <tr>
+        <td align="center">
+          <a href="./page1.html">Page1</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page2.html">Page2</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page3.html">Page3</a>&nbsp; &nbsp; &nbsp;
+          <a href="./page4.html">Page4</a>&nbsp; &nbsp; &nbsp;
+          <a href="../">Home</a>
+        </td>
+      </tr>
+    </table>
+
+    <table> <tr> &nbsp; </tr> </table>
+    <hr color="red"><hr color="red"><!-- Two lines that separate the menu section from the rest of the page-->
+
+    <p>
+      <font color="darkred" size="6" face="Calibri">
+          <b>Best Movies in Theaters</b> <!--Bold text, formated as described on the font command-->
+      </font><br>
+    </p>
+    <table> <tr> &nbsp; </tr> </table>
+
+    <!--Table with 2 rows and 2 columns formated as described below-->
+    <table width="100%" border="2" bordercolor=red cellpadding="6" cellspacing="6" > 
+      <tr>
+        <td>
+          <!--Image with a link to a different website-->
+          <a href="https://en.wikipedia.org/wiki/Incredibles_2">
+            <img src="../images/p13446354_p_v8_ad.jpg" alt="Incredibles 2 Poster" width="200" height="300" border=0>
+          </a>
+        </td>
+
+        <td height="50">
+          <font color=darkgreen size=5 face="Georgia"> <!-- Text describing the image-->
+            Incredibles 2 is a 2018 American computer-animated film produced by Pixar and released by Walt Disney Pictures. Written and directed by Brad Bird, it is the sequel to The Incredibles (2004) and the second installment of the franchise. The story follows the Parr family as they try to restore public's trust in superheroes while balancing their family life, only to combat a new foe who seeks to turn the populace against all superheroes.
+          </font>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <!--Image with a link to a different website-->
+          <a href="https://www.imdb.com/title/tt7349662/">
+            <img src="../images/p15393254_v_v8_aa.jpg" alt="BlacKkKlansman Poster" width="180" height="290" border=0>
+          </a>
+        </td>
+
+        <td height="35">
+          <font color=purple size=4 face="Arial"> <!-- Text describing the image-->
+            BlacKkKlansman is a 2018 American biographical comedy-drama film directed by Spike Lee and written by Charlie Wachtel, David Rabinowitz, Kevin Willmott, and Lee, based on the 2014 memoir Black Klansman by Ron Stallworth. The film stars John David Washington as Stallworth, alongside Adam Driver, Laura Harrier, and Topher Grace. Set in 1970s Colorado Springs, the plot follows the first African-American detective in the Colorado Springs police department, who sets out to infiltrate and expose the local chapter of the Ku Klux Klan. Although based on a true story, the plot of the film is considerably more dramatic than the events of the book.
+          </font>
+        </td>
+      </tr>
+    </table>
+
+    <table> <tr> &nbsp; </tr> </table>
+
+    <center>
+      <font color="blue" size="6" face="courier">
+          <b>For more info about these movies click on the images</b> <!--Bold text, formated as described on the font command-->
+      </font><br>
+    </center>
+
+  </body>
+</html>

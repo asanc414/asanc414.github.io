@@ -1,0 +1,44 @@
+<!-- ***************************************************************************************
+    Author     : Anamarys Sanchez Morales
+    Course     : WEB-1
+    URL        : ocelot.aul.fiu.edu/~asanc414
+    Professor  : Michael Robinson 
+    Program #1  : Create a website using a topic of choice in the ocelot.aul.fiu.edu
+                  FIU server.  
+
+    Due Date   : 09/26/2018 
+    Certification: 
+    I hereby certify that this work is my own and none of it is the work of any other person. 
+
+    ..........{                  }..........
+
+  **************************************************************************************** -->
+<html>
+  <head>
+    <title> SanchezA Home </title>
+  </head>
+
+  <body align="center" bgcolor=orange> <!-- Center alignment and background color -->
+    <table> <tr> &nbsp; </tr> </table> <!-- empty row-->
+
+    <a href="http://cs.fiu.edu"><font color=navy size=6 face="Georgia">Florida International University</font></a><br> <!--Hyperlink to FIU CIS Website-->
+    <table> <tr> &nbsp; </tr> </table>
+
+    <img src="./images/FIU1.jpg" alt="FIU Logo" width="300" height="300" border=0 /><br>
+    <table> <tr> &nbsp; </tr> </table> <!-- FIU Logo Image-->
+
+    <p>
+      <font color=navy size=5 face="Times New Roman"> <!-- My name-->
+        <b>Anamarys Sanchez Morales</b>
+      </font>
+    </p>
+    <table> <tr> &nbsp; </tr> </table>
+
+    <a href="./includes/pgm1.html"><font color="navy" size=5 face="Times New Roman">Program 1</font></a> &nbsp; &nbsp; <!--Hyperlink to Pgm1-->
+    <a href="./includes/program2.php"><font color="navy" size=5 face="Times New Roman">Program 2</font></a>&nbsp; &nbsp;<!--Hyperlink to Pgm2-->
+    <a href="./includes/program3.php"><font color="navy" size=5 face="Times New Roman">Program 3</font></a>&nbsp; &nbsp;<!--Hyperlink to Pgm3-->
+    <a href="./includes/program4.php"><font color="navy" size=5 face="Times New Roman">Program 4</font></a>&nbsp; &nbsp;<!--Hyperlink to Pgm4-->
+    <a href="./"><font color="navy" size=5 face="Times New Roman">Home</font></a><!--Hyperlink to home-->
+
+  </body>
+</html>
